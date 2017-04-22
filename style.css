@@ -1,0 +1,117 @@
+<style>
+  .navbar-default{
+    background: white;
+  }
+  .navbar .navbar-nav{
+    display: block;
+    float: none;
+    margin:0 auto;
+    text-align: center;
+  }
+  .navbar-nav > li{
+    display: inline-block;
+    float: none;
+  }
+
+  /*added from online*/
+  .navbar-sm .navbar {
+    min-height:55px;
+    height: 55px;
+  }
+  .navbar-sm .navbar .navbar-brand {
+    padding: 0px 12px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+  .navbar-sm .navbar .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 50px;
+  }
+
+  .activeNew {
+    font-style: italic;
+  }
+      /*body {
+        max-width: 700px;
+        width: 90%;
+        margin: 20px auto;
+        border: 1px solid blue;
+        padding: 15px;
+      }*/
+  html{
+    height: 100%;
+  }
+  body {
+    /*background: url(cover2.jpg);
+    background-size: cover;
+    background-position: center;*/
+    font-family: Raleway;
+  }
+  main {
+	  margin-top: 70px;
+  }
+  h1, h2, h3 {
+    color: white;
+    font-family: Calligraffitti;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    color: gray;
+  }
+
+  p {
+    font-size: .5em;
+    color: gray;
+  }
+
+  .dateInfo {
+      color: gray;
+  }
+
+  .cover {
+    background: url(../cover2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+
+  .col-centered {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  .btn-more {
+      background-color: #ffe0f4;
+      color: gray;
+  }
+
+  #heading {
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                  0px 8px 13px rgba(0,0,0,0.1),
+                  0px 18px 23px rgba(0,0,0,0.1);
+  }
+  #calendar {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 5%;
+    color: white;
+  }
+
+  #title h1 {
+    color: gray;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                  0px 8px 13px rgba(0,0,0,0.1),
+                  0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+</style>

@@ -1,0 +1,204 @@
+<style>
+  .navbar-default{
+    background: white;
+  }
+  .navbar .navbar-nav{
+    display: block;
+    float: none;
+    margin:0 auto;
+    text-align: center;
+  }
+  .navbar-nav > li{
+    display: inline-block;
+    float: none;
+  }
+
+  /*added from online*/
+  .navbar-sm .navbar {
+    min-height: 55px;
+  }
+  .navbar-sm .navbar .navbar-brand {
+    padding: 0px 12px;
+    font-size: 16px;
+    line-height: 40px;
+  }
+  .navbar-sm .navbar .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 50px;
+  }
+  .activeNew {
+    font-style: italic;
+  }
+
+  html{
+    height: 100%;
+  }
+  body {
+    font-family: Raleway;
+  }
+  main {
+	  margin-top: 70px;
+  }
+  h1, h2, h3 {
+    font-family: Calligraffitti;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2em;
+  }
+  h3 {
+    color: gray;
+  }
+
+  p {
+    font-size: .5em;
+    color: gray;
+  }
+
+  .dateInfo {
+      color: gray;
+  }
+
+  .cover {
+    background: url(../jackiebraden151.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+  }
+
+  .homePic {
+    position: relative;
+  }
+
+  .homeText {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 5px;
+    padding: 15px;
+    margin-top: 0;
+    color: #f9edf4;
+    background: rgba(0,0,0,0);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.64) 41%, rgba(0,0,0,0.72) 46%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.72) 56%, rgba(0,0,0,0.54) 67%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(41%, rgba(0,0,0,0.64)), color-stop(46%, rgba(0,0,0,0.72)), color-stop(51%, rgba(0,0,0,0.8)), color-stop(56%, rgba(0,0,0,0.72)), color-stop(67%, rgba(0,0,0,0.54)), color-stop(100%, rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.64) 41%, rgba(0,0,0,0.72) 46%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.72) 56%, rgba(0,0,0,0.54) 67%, rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.64) 41%, rgba(0,0,0,0.72) 46%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.72) 56%, rgba(0,0,0,0.54) 67%, rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.64) 41%, rgba(0,0,0,0.72) 46%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.72) 56%, rgba(0,0,0,0.54) 67%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.64) 41%, rgba(0,0,0,0.72) 46%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.72) 56%, rgba(0,0,0,0.54) 67%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+  }
+
+  .partyPic {
+    position: relative;
+  }
+
+  .transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+
+  .transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+
+  .col-centered {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2%;
+  }
+
+  .btn-more {
+      background-color: #ffe0f4;
+      color: gray;
+  }
+
+  .iframeContainer {
+    position: relative;
+    width: 100%;
+  }
+
+  .infoTitle {
+    padding: 10px;
+    margin: 15px 0;
+    background: linear-gradient(
+                     rgba(250,250,250, .5),
+                     rgba(250,250,250, .5)),
+                     url(../social/smear.jpg);
+    /*background-image: url(../social/lights.jpg);*/
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.2);
+  }
+
+  .infoTitle h2 {
+    font-family: Raleway;
+    letter-spacing: 5px;
+  }
+
+  .simpleFooter {
+    text-align: center;
+    background-color: #eaeaea;
+  }
+
+  .prizes h3 {
+    font-family: Raleway;
+    color: gray;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);
+  }
+
+  .jumbotron {
+    background-image: url(../social/jackiebraden128.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+
+  #socialMessage h2, #socialMessage h3 {
+    color: white;
+    font-family: Raleway;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                  0px 8px 13px rgba(0,0,0,0.1),
+                  0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+  #socialHeading {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                  0px 8px 13px rgba(0,0,0,0.1),
+                  0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+  #heading {
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                  0px 8px 13px rgba(0,0,0,0.1),
+                  0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+  #title h1 {
+    color: gray;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                  0px 8px 13px rgba(0,0,0,0.1),
+                  0px 18px 23px rgba(0,0,0,0.1);
+    margin-top: 20%;
+  }
+
+
+
+
+</style>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+html, header, h1{
+	margin: 5px;
+}
+
+header {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 24px;
+	color: black;
+	text-align: center;
+	padding: 0px;
+	positon: center;
+}
+
+div.background {
+	background: url(cover2.jpg);
+	background-repeat: no-repeat;
+	padding: 10px;
+	background-size: 100% 100%;
+}
+
+#homeNav {
+	padding: 5px;
+	color: black;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+
+	font-style: normal;
+	font-size: 24px;
+	text-align: center;
+}
+
+div.transbox {
+    margin: 30px;
+ 	margin-top: 10px;
+	background-color: #ffffff;
+	border: 1px solid black;
+  	opacity: 0.6;
+ 	filter: alpha(opacity=60);
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+img {
+    display: block;
+    margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+#welcome-mes {
+	font-size: xx-large;
+	color: white;
+	text-align: center;
+	padding: 2px;	
+}
+
+footer {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 10px;
+	color: black;
+	background: white;
+	text-align: center;
+	padding-top: 5px;
+	positon: 100%;
+}
