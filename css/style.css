@@ -113,25 +113,25 @@
 
   div.pinkBox{
     background-color: #fcf2fc;
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     opacity: 0.6;
   }
 
   div.greyBox{
     background-color: #e0e0e0;
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     opacity: 0.6;
   }
 
   div.creamBox{
     background-color: #fff9e5;
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     opacity: 0.6;
   }
 
   div.lavBox{
     background-color: #f7e8ff;
-    outline: 1px solid black;
+    /*outline: 1px solid black;*/
     opacity: 0.6;
   }
 
