@@ -35,6 +35,7 @@
   }
   body {
     font-family: Raleway;
+    padding-top: 60px;
   }
   main {
 	  margin-top: 70px;
@@ -94,11 +95,7 @@
 
   .partyPic {
     position: relative;
-    margin-bottom: 5%;
-    margin-top: 8%;
   }
-
-
 
   div.transbox {
     padding: 10px;
@@ -225,10 +222,6 @@
     margin-top: 20%;
   }
 
-  #PartyTitle {
-    margin-top: 8%;
-  }
-
   .profileImageLeft{
       margin-left: 2%;
       margin-right: 10px;
@@ -269,7 +262,7 @@
       text-align: right;
   }
 
-  #ggg {
+  #partyOverlay {
     position: absolute;
     top: 5px;
     width: 100%;
@@ -279,15 +272,18 @@
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
   }
+
   #PartyTitle {
     display:none;
   }
 
   @media(max-width:512px) {
-    #ggg {
+    #partyOverlay {
       display:none;
     }
     #PartyTitle {
       display:block;
+      padding-top: 0;
+      font-size: 2em;
     }
   }
