@@ -1,62 +1,99 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jackie and Braden</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jackie and Braden</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
 
-  </head>
-  <body>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style.css">
 
-    <div class="navbar-sm">
-      <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+	<link rel="stylesheet" href="../css/rsvp.css">
+
+</head>
+
+<body>
+
+	<div class="navbar-sm">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <!-- <a href="#" class="navbar-brand">Jackie & Braden</a> -->
-          </div>
-          <div class="collapse navbar-collapse" id="bs-nav-demo">
-            <ul class="nav navbar-nav">
-              <li><a href="../">Home</a></li>
-              <li class="activeNew"><a href="../ourstory/">Our Story</a></li>
-              <li><a href="../ourparty/">Our Party</a></li>
-              <!-- <li><h3>J&B</h3></li> -->
-              <li><a href="../social/">Social</a></li>
-              <li><a href="../ceremony/">Ceremony</a></li>
-              <li><a href="../rsvp/">RSVP</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
+					<!-- <a href="#" class="navbar-brand">Jackie & Braden</a> -->
+				</div>
+				<div class="collapse navbar-collapse" id="bs-nav-demo">
+					<ul class="nav navbar-nav">
+						<li><a href="../">Home</a></li>
+						<li class="activeNew"><a href="../ourstory/">Our Story</a></li>
+						<li><a href="../ourparty/">Our Party</a></li>
+						<!-- <li><h3>J&B</h3></li> -->
+						<li><a href="../social/">Social</a></li>
+						<li><a href="../ceremony/">Ceremony</a></li>
+						<li><a href="../rsvp/">RSVP</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
 
-    <div class="contaner">
-      <h1>our story</h1>
-    </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<form id="rsvp_form">
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input type="name" class="form-control" id="name" name="name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" id="email" name="email">
+					</div>
 
+					<div class="form-group">
+						<h3>
+							Are you taking the bus?
+						</h3>
+						<div class="radio">
+							<label><input type="radio" name="bus" value="true">Yes</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="bus" value="false">No</label>
+						</div>
+					</div>
 
+					<button type="submit" class="btn btn-primary">
+						Submit RSVP
+					</button>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2 form-error">
+				<h3>Pleae complete all the form fields.</h3>
+			</div>
+		</div>
+	</div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.1.1.js"
-      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
 
 	<script src="/js/rsvp.js"></script>
 
-  </body>
+</body>
+
 </html>
