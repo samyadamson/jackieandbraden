@@ -6,3 +6,15 @@
 .form-error>h3 {
 	color: red;
 }
+.btn-x {
+	color: white;
+	font-weight: bold;
+}
+.guest-list-item {
+	margin-top: 15px;
+}
+#rsvp_form {
+}
+#rsvp_form_success {
+	display:none;
+}
