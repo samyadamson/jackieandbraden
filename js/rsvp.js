@@ -1,4 +1,5 @@
-var API_URL = "https://jackieandbradenrsvp.firebaseio.com/.json";
+var API_URL = "https://jackieandbraden-df9e4.firebaseio.com/.json";
+
 var FORM_LEN = 3;
 
 var guest_count = 0;
