@@ -37,9 +37,6 @@
     font-family: Raleway;
     padding-top: 60px;
   }
-  main {
-	  margin-top: 70px;
-  }
   h1, h2, h3 {
     font-family: Calligraffitti;
   }
@@ -73,7 +70,7 @@
     position: relative;
   }
 
-  .homeText {
+  #homeText {
     position: absolute;
     top: 5%;
     left: 0;
@@ -173,6 +170,7 @@
   .simpleFooter {
     text-align: center;
     background-color: #eaeaea;
+    margin-top: 5px;
   }
 
   .prizes h3 {
@@ -185,8 +183,11 @@
     background-image: url(../social/JackieBraden128.jpg);
     background-size: cover;
     background-position: center;
-    margin-top: 60px;
     margin-bottom: 0;
+  }
+
+  #partyFooter {
+    margin-top: 20px;
   }
 
   #socialMessage h2, #socialMessage h3 {
