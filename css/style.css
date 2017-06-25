@@ -34,11 +34,11 @@
     height: 100%;
   }
   body {
-    font-family: Raleway;
+    font-family: "Raleway";
     padding-top: 60px;
   }
   h1, h2, h3 {
-    font-family: Calligraffitti;
+    font-family: "Amatic SC";
   }
   h1 {
     font-size: 3em;
@@ -273,6 +273,7 @@
     color: white;
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 50px;
   }
 
   #PartyTitle {

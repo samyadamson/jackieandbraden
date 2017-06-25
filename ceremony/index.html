@@ -10,13 +10,17 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bubbler+One|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-
+    <link rel="stylesheet" href="../css/ceremony.css">
   </head>
   <body>
-`
+
+    <!-- NAV BAR -->
     <div class="navbar-sm">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -32,20 +36,156 @@
           <div class="collapse navbar-collapse" id="bs-nav-demo">
             <ul class="nav navbar-nav">
               <li><a href="../">Home</a></li>
-              <li class="activeNew"><a href="../ourstory/">Our Story</a></li>
+              <li><a href="../ourstory/">Our Story</a></li>
               <li><a href="../ourparty/">Our Party</a></li>
               <!-- <li><h3>J&B</h3></li> -->
               <li><a href="../social/">Social</a></li>
-              <li><a href="../ceremony/">Ceremony</a></li>
+              <li class="activeNew"><a href="../ceremony/">Ceremony</a></li>
               <li><a href="../rsvp/">RSVP</a></li>
+              <li><a href="http://www.starwoodhotels.com/fourpoints/rates/rate.html?&propertyID=3086&rp=SN:531808" target="_blank">Hotel</a></li>
             </ul>
           </div>
         </div>
       </nav>
     </div>
 
-    <div class="contaner">
-      <h1>our story</h1>
+    <!-- BODY -->
+    <div class="container">
+
+      <!-- first bus informaton -->
+      <div id="firstBusCard" class="event">
+        <div class="row">
+          <div class="col-sm-4">
+            <!--photo box-->
+            <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive">
+          </div>
+
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1>First Bus</h1>
+              </div>
+              <div class="col-sm-6">
+                <h3>Location</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6" style="background: green">
+                <p>stuff about the ceremony and welcoming guests</p>
+              </div>
+              <div class="col-sm-6" style="background: pink">
+                <!--General info-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ceremony informaton -->
+      <div id="ceremonyCard" class="event">
+        <div class="row">
+          <div class="col-sm-4">
+            <!--photo box-->
+            <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive">
+          </div>
+
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1>Ceremony</h1>
+              </div>
+              <div class="col-sm-6">
+                <h3>Location</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6" style="background: green">
+                <!--Welcome to our wedding ceremony message general-->
+                <p>stuff about the ceremony and welcoming guests</p>
+              </div>
+              <div class="col-sm-6" style="background: pink">
+                <!--General info-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- reception informaton -->
+      <div id="receptionCard" class="event">
+        <div class="row">
+          <div class="col-sm-4">
+            <!--photo box-->
+            <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive">
+          </div>
+
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1>Reception</h1>
+              </div>
+              <div class="col-sm-6">
+                <h3>Location</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6" style="background: green">
+                <!--Welcome to our wedding ceremony message general-->
+                <p>stuff about the ceremony and welcoming guests</p>
+              </div>
+              <div class="col-sm-6" style="background: pink">
+                <!--General info-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- last bus informaton -->
+      <div id="lastBusCard" class="event">
+        <div class="row">
+          <div class="col-sm-4">
+            <!--photo box-->
+            <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive">
+          </div>
+
+          <div class="col-sm-8">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1>Last Bus</h1>
+              </div>
+              <div class="col-sm-6">
+                <h3>Location</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6" style="background: green">
+                <!--Welcome to our wedding ceremony message general-->
+                <p>stuff about the ceremony and welcoming guests</p>
+              </div>
+              <div class="col-sm-6" style="background: pink">
+                <!--General info-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-3 card" onclick="onShowEventInfo(0)">
+          <p>first bus</p>
+        </div>
+        <div class="col-sm-3 card" onclick="onShowEventInfo(1)">
+          <p>ceremony</p>
+        </div>
+        <div class="col-sm-3 card" onclick="onShowEventInfo(2)">
+          <p>reception</p>
+        </div>
+        <div class="col-sm-3 card" onclick="onShowEventInfo(3)">
+          <p>last bus</p>
+        </div>
+      </div>
+
     </div>
 
 
@@ -55,6 +195,9 @@
       integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
       crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="../js/ceremony.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 
   </body>
 </html>
