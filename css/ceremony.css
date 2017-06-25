@@ -17,7 +17,40 @@
 
 .event {
   display: none;
+  margin-top: 10px;
 }
+
+.mobileEvent {
+  display: none;
+}
+
+.cardImg {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ceremonyCard .cardImg {
+  background-image: url("../ceremony/JackieBraden145.jpg");
+  height: 170px;
+}
+
+.collapsible li.active .collapsible-header{
+  background: #fcf2fc;
+}
+
+.collapsible li.active .fa{
+  color: #707070;
+}
+
+.fa {
+  color: #b0b0b0;
+}
+
+
+/*.collapsible li.active .fa-bus{
+  color: black;
+}*/
 
 /*#firstBusCard {
   display: none;
@@ -34,3 +67,16 @@
 #lastBusCard {
   display: none;
 }*/
+
+
+@media(max-width:512px) {
+  .desktopTimeline {
+    display: none;
+  }
+  .mobileEvent {
+    display: block;
+  }
+  .event {
+    display: none !important;
+  }
+}

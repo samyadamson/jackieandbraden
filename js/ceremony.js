@@ -22,7 +22,6 @@ function firstBus() {
     }
 }
 
-
 var event_list = ["firstBusCard", "ceremonyCard", "receptionCard", "lastBusCard"];
 
 function onShowEventInfo(index){

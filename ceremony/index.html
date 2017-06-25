@@ -55,25 +55,25 @@
       <!-- first bus informaton -->
       <div id="firstBusCard" class="event">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-xs-4 cardImg">
             <!--photo box-->
             <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive">
           </div>
 
-          <div class="col-sm-8">
+          <div class="col-xs-8">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <h1>First Bus</h1>
               </div>
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <h3>Location</h3>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-6" style="background: green">
+              <div class="col-xs-6" style="background: green">
                 <p>stuff about the ceremony and welcoming guests</p>
               </div>
-              <div class="col-sm-6" style="background: pink">
+              <div class="col-xs-6" style="background: pink">
                 <!--General info-->
               </div>
             </div>
@@ -84,26 +84,26 @@
       <!-- ceremony informaton -->
       <div id="ceremonyCard" class="event">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-xs-4 cardImg">
             <!--photo box-->
-            <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive">
+            <!-- <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive"> -->
           </div>
 
-          <div class="col-sm-8">
+          <div class="col-xs-8">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <h1>Ceremony</h1>
               </div>
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <h3>Location</h3>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-6" style="background: green">
+              <div class="col-xs-6" style="background: green">
                 <!--Welcome to our wedding ceremony message general-->
                 <p>stuff about the ceremony and welcoming guests</p>
               </div>
-              <div class="col-sm-6" style="background: pink">
+              <div class="col-xs-6" style="background: pink">
                 <!--General info-->
               </div>
             </div>
@@ -114,26 +114,26 @@
       <!-- reception informaton -->
       <div id="receptionCard" class="event">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-xs-4 cardImg">
             <!--photo box-->
             <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive">
           </div>
 
-          <div class="col-sm-8">
+          <div class="col-xs-8">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <h1>Reception</h1>
               </div>
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <h3>Location</h3>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-6" style="background: green">
+              <div class="col-xs-6" style="background: green">
                 <!--Welcome to our wedding ceremony message general-->
                 <p>stuff about the ceremony and welcoming guests</p>
               </div>
-              <div class="col-sm-6" style="background: pink">
+              <div class="col-xs-6" style="background: pink">
                 <!--General info-->
               </div>
             </div>
@@ -144,26 +144,26 @@
       <!-- last bus informaton -->
       <div id="lastBusCard" class="event">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-xs-4 cardImg">
             <!--photo box-->
             <img src="JackieBraden145.jpg" alt="JackieBraden145" class="img-responsive">
           </div>
 
-          <div class="col-sm-8">
+          <div class="col-xs-8">
             <div class="row">
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <h1>Last Bus</h1>
               </div>
-              <div class="col-sm-6">
+              <div class="col-xs-6">
                 <h3>Location</h3>
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-6" style="background: green">
+              <div class="col-xs-6" style="background: green">
                 <!--Welcome to our wedding ceremony message general-->
                 <p>stuff about the ceremony and welcoming guests</p>
               </div>
-              <div class="col-sm-6" style="background: pink">
+              <div class="col-xs-6" style="background: pink">
                 <!--General info-->
               </div>
             </div>
@@ -171,19 +171,43 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-sm-3 card" onclick="onShowEventInfo(0)">
+      <div class="row desktopTimeline">
+        <div class="col-xs-3 card" onclick="onShowEventInfo(0)">
           <p>first bus</p>
         </div>
-        <div class="col-sm-3 card" onclick="onShowEventInfo(1)">
+        <div class="col-xs-3 card" onclick="onShowEventInfo(1)">
           <p>ceremony</p>
         </div>
-        <div class="col-sm-3 card" onclick="onShowEventInfo(2)">
+        <div class="col-xs-3 card" onclick="onShowEventInfo(2)">
           <p>reception</p>
         </div>
-        <div class="col-sm-3 card" onclick="onShowEventInfo(3)">
+        <div class="col-xs-3 card" onclick="onShowEventInfo(3)">
           <p>last bus</p>
         </div>
+      </div>
+
+      <div class="mobileEvent">
+
+        <h1>Details for the Day</h1>
+
+        <ul class="collapsible" data-collapsible="accordion">
+          <li>
+            <div class="collapsible-header"><i class="fa fa-bus" aria-hidden="true"></i>3:00 First Bus</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header active"><i class="fa fa-heart" aria-hidden="true"></i>4:00 Ceremony</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="fa fa-glass" aria-hidden="true"></i>4:30 Reception</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+          <li>
+            <div class="collapsible-header"><i class="fa fa-bus" aria-hidden="true"></i>1:00 Last Bus</div>
+            <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+          </li>
+        </ul>
       </div>
 
     </div>
