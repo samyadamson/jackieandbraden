@@ -2,25 +2,25 @@
 //   $("#firstBusInfo").show();
 // });
 
-function firstBus() {
-  var firstBus = document.getElementById('firstBusCard');
-  var ceremony = document.getElementById('ceremonyCard');
-  var reception = document.getElementById('receptionCard');
-  var lastBus = document.getElementById('lastBusCard');
-
-    if (firstBus.style.display === 'none') {
-        firstBus.style.display = 'block';
-        ceremony.style.display = 'none';
-        reception.style.display = 'none';
-        lastBus.style.display = 'none';
-
-    } else {
-        firstBus.style.display = 'none';
-        ceremony.style.display = 'block';
-        reception.style.display = 'none';
-        lastBus.style.display = 'none';
-    }
-}
+// function firstBus() {
+//   var firstBus = document.getElementById('firstBusCard');
+//   var ceremony = document.getElementById('ceremonyCard');
+//   var reception = document.getElementById('receptionCard');
+//   var lastBus = document.getElementById('lastBusCard');
+//
+//     if (firstBus.style.display === 'none') {
+//         firstBus.style.display = 'block';
+//         ceremony.style.display = 'none';
+//         reception.style.display = 'none';
+//         lastBus.style.display = 'none';
+//
+//     } else {
+//         firstBus.style.display = 'none';
+//         ceremony.style.display = 'block';
+//         reception.style.display = 'none';
+//         lastBus.style.display = 'none';
+//     }
+// }
 
 var event_list = ["firstBusCard", "ceremonyCard", "receptionCard", "lastBusCard"];
 
