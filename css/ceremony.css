@@ -67,26 +67,38 @@
   color: #707070;
 }
 
-/*.collapsible li.active .fa-bus{
-  color: black;
-}*/
-
-/*#firstBusCard {
-  display: none;
+.desktopIcon {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
-#ceremonyCard {
-  display: block;
+.desktopButton {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: #707070;
+  font-family: Bubbler One;
 }
 
-#receptionCard {
-  display: none;
+.desktopInfo {
+  line-height: 25px;
+  font-size: 20px;
 }
 
-#lastBusCard {
-  display: none;
-}*/
+.moreInfo {
+  font-style: italic;
+  font-size: 10px;
+}
 
+.selectedButton {
+  background: #fcf2fc;
+}
+
+.selectedButton .fa {
+  color: #707070;
+}
 
 @media(max-width:512px) {
   .desktopTimeline {

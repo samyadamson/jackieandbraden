@@ -23,11 +23,13 @@
 // }
 
 var event_list = ["firstBusCard", "ceremonyCard", "receptionCard", "lastBusCard"];
+var id_list = ["firstBusBtn", "ceremonyBtn", "receptionBtn", "lastBusBtn"];
 
-function onShowEventInfo(index){
+function onShowEventInfo(index, id){
   for(var i=0;i<event_list.length;i++)
     try {
       document.getElementById(event_list[i]).style.display = "none";
+      document.getElementById(id_list[i]).classList.remove("selectedButton");
     }
     catch(e) {
       console.error(e);
@@ -35,6 +37,7 @@ function onShowEventInfo(index){
     }
   try {
     document.getElementById(event_list[index]).style.display = "block";
+    document.getElementById(id_list[id]).classList.add("selectedButton");
   }
   catch(e) {
     console.error(e);
@@ -43,5 +46,5 @@ function onShowEventInfo(index){
 }
 
 setTimeout(function(){
-  onShowEventInfo(1);
+  onShowEventInfo(1, 1);
 },50);
