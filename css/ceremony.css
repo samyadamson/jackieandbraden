@@ -19,6 +19,7 @@
 .event {
   display: none;
   margin-top: 10px;
+  height: 370px;
 }
 
 .mobileEvent {
@@ -131,5 +132,8 @@ h1 {
   }
   .event {
     display: none !important;
+  }
+  h1 {
+    font-size: 3em;
   }
 }
