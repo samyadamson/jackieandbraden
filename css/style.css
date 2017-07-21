@@ -264,6 +264,10 @@
       text-align: right;
   }
 
+  .modal-body p {
+    font-size: 1em;
+  }
+
   #partyOverlay {
     position: absolute;
     top: 5px;
