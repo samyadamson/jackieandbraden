@@ -71,7 +71,8 @@
     position: relative;
   }
 
-  #homeText {
+  #homeMainText {
+    font-size: 6em;
     position: absolute;
     top: 5%;
     left: 0;
@@ -80,7 +81,8 @@
     letter-spacing: 5px;
     padding: 15px;
     margin-top: 0;
-    color: #f9edf4;
+    /*color: #f9edf4;*/
+    color: #fff9fa;
     background: rgba(0,0,0,0);
     background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.64) 41%, rgba(0,0,0,0.72) 46%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.72) 56%, rgba(0,0,0,0.54) 67%, rgba(0,0,0,0) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(41%, rgba(0,0,0,0.64)), color-stop(46%, rgba(0,0,0,0.72)), color-stop(51%, rgba(0,0,0,0.8)), color-stop(56%, rgba(0,0,0,0.72)), color-stop(67%, rgba(0,0,0,0.54)), color-stop(100%, rgba(0,0,0,0)));
@@ -89,6 +91,17 @@
     background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.64) 41%, rgba(0,0,0,0.72) 46%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.72) 56%, rgba(0,0,0,0.54) 67%, rgba(0,0,0,0) 100%);
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.64) 41%, rgba(0,0,0,0.72) 46%, rgba(0,0,0,0.8) 51%, rgba(0,0,0,0.72) 56%, rgba(0,0,0,0.54) 67%, rgba(0,0,0,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+  }
+
+  #homeSecondaryText {
+    background: linear-gradient(
+                     rgba(250,250,250, .5),
+                     rgba(250,250,250, .5));
+                     /*url(../images/jbSecondary2.jpg);*/
+    /*background-image: url(../images/jbSecondary2.jpg);*/
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.2);
+    letter-spacing: 4px;
+    font-size: 1.5em;
   }
 
   .partyPic {
@@ -143,8 +156,10 @@
   }
 
   .btn-more {
-      background-color: #ffe0f4;
-      color: gray;
+      /*background-color: #ffe0f4;*/
+      background-color: #9e9699;
+      /*color: #fff4f9;*/
+      color: #fff9fa;
   }
 
   .iframeContainer {
@@ -157,8 +172,9 @@
     margin: 15px 0;
     background: linear-gradient(
                      rgba(250,250,250, .5),
-                     rgba(250,250,250, .5)),
-                     url(../social/smear.jpg);
+                     rgba(250,250,250, .5));
+                     /*url(../social/smear.jpg);*/
+                     background-image: url(../images/jbThumbnail.jpg);
     /*background-image: url(../social/lights.jpg);*/
     text-shadow: 0px 4px 3px rgba(0,0,0,0.2);
   }
@@ -284,6 +300,20 @@
     display:none;
   }
 
+  .caption h3 {
+    margin-top: 0;
+    font-size: 2em;
+  }
+
+  .thumbnail {
+    /*background: #fff9fa;*/
+        background-image: url(../images/jbThumbnail.jpg);
+  }
+
+  .storyHeading {
+    /*background-image: url(../images/jbThumbnail.jpg);*/
+  }
+
   @media(max-width:512px) {
     #partyOverlay {
       display:none;
@@ -292,5 +322,11 @@
       display:block;
       padding-top: 0;
       font-size: 2em;
+    }
+    #homeMainText {
+      font-size: 3em;
+    }
+    #homeSecondaryText {
+      font-size: 1em;
     }
   }

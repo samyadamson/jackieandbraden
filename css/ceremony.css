@@ -2,6 +2,15 @@
   background: white;
   padding: 20px;
   border-radius: 4px;
+  font-family: "Raleway";
+}
+
+.modal-footer {
+  background-image: url(../images/jbThumbnail.jpg);
+}
+
+.modal-header {
+  background-image: url(../images/jbThumbnail.jpg);
 }
 
 .navbar-nav {
@@ -57,7 +66,8 @@
 }
 
 .collapsible li.active .collapsible-header {
-  background: #fcf2fc;
+  /*background: #fcf2fc;*/
+  background-image: url(../images/jbThumbnail.jpg);
 }
 
 .collapsible li.active .fa{
@@ -98,7 +108,8 @@
 }
 
 .selectedButton {
-  background: #fcf2fc;
+  /*background: #fcf2fc;*/
+  background-image: url(../images/jbThumbnail.jpg);
 }
 
 .selectedButton .fa {
