@@ -174,7 +174,7 @@
                      rgba(250,250,250, .5),
                      rgba(250,250,250, .5));
                      /*url(../social/smear.jpg);*/
-                     background-image: url(../images/jbThumbnail.jpg);
+                     background-image: url(../images/banner.jpg);
     /*background-image: url(../social/lights.jpg);*/
     text-shadow: 0px 4px 3px rgba(0,0,0,0.2);
   }
@@ -284,6 +284,15 @@
     font-size: 1em;
   }
 
+  #thumbnailTitle {
+    background: linear-gradient(
+                       rgba(250,250,250, .5),
+                       rgba(250,250,250, .5));
+                       /*url(../images/jbSecondary2.jpg);*/
+      /*background-image: url(../images/jbSecondary2.jpg);*/
+      text-shadow: 0px 4px 3px rgba(0,0,0,0.2);
+    }
+
   #partyOverlay {
     position: absolute;
     top: 5px;
@@ -307,7 +316,7 @@
 
   .thumbnail {
     /*background: #fff9fa;*/
-        background-image: url(../images/jbThumbnail.jpg);
+        background-image: url(../images/pink.jpg);
   }
 
   .storyHeading {

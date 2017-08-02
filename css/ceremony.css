@@ -6,11 +6,11 @@
 }
 
 .modal-footer {
-  background-image: url(../images/jbThumbnail.jpg);
+  background-image: url(../images/banner.jpg);
 }
 
 .modal-header {
-  background-image: url(../images/jbThumbnail.jpg);
+  background-image: url(../images/banner.jpg);
 }
 
 .navbar-nav {
@@ -75,7 +75,7 @@
 
 .collapsible li.active .collapsible-header {
   /*background: #fcf2fc;*/
-  background-image: url(../images/jbThumbnail.jpg);
+  background-image: url(../images/banner.jpg);
 }
 
 .collapsible li.active .fa{
@@ -117,7 +117,7 @@
 
 .selectedButton {
   /*background: #fcf2fc;*/
-  background-image: url(../images/jbThumbnail.jpg);
+  background-image: url(../images/banner.jpg);
 }
 
 .selectedButton .fa {
